@@ -6,8 +6,8 @@
 	  "enumMember": {
 		// "foreground": "#56b6c2"
 	  },
-	  "variable.constant": {
-		// "foreground": "#d19a66"
+	  "variable": {
+		"foreground": "#7aa697"
 	  },
 	  "variable.defaultLibrary": {
 		// "foreground": "#e5c07b"
@@ -123,7 +123,7 @@
 		"name": "Comment Markup Link",
 		"scope": "comment markup.link",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#aa9981"
 		}
 	  },
 	  {
@@ -377,7 +377,7 @@
 		"name": "js console function",
 		"scope": "entity.name.function,support.function.console",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#7aa697"
 		}
 	  },
 	  {
@@ -548,6 +548,13 @@
 		  "foreground": "#fff4ba"
 		}
 	  },
+	//   {
+	// 	"name": "Variable Constant",
+	// 	"scope": "variable.constant",
+	// 	"settings": {
+	// 	  "foreground": "#00ff00"
+	// 	}
+	//   },
 	  {
 		"name": "Variables",
 		"scope": "variable.c",
@@ -599,7 +606,7 @@
 		  "variable.function"
 		],
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#7aa697"
 		}
 	  },
 	  {
@@ -715,7 +722,7 @@
 		"name": "Support type",
 		"scope": "support.type.property-name",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#3d8c8c"
 		}
 	  },
 	  {
@@ -764,14 +771,14 @@
 		"name": "Integers",
 		"scope": "constant.numeric",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#7aa697"
 		}
 	  },
 	  {
 		"name": "Constants",
 		"scope": "constant",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#7aa697"
 		}
 	  },
 	  {
@@ -783,9 +790,9 @@
 	  },
 	  {
 		"name": "Tags",
-		"scope": "entity.name.tag",
+		"scope": "entity.name.tag, support.class.component",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#7aa697"
 		}
 	  },
 	  {
@@ -1059,21 +1066,21 @@
 		"name": "[VSCODE-CUSTOM] JSON Property Name",
 		"scope": "support.type.property-name.json",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#3d8c8c"
 		}
 	  },
 	  {
 		"name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
 		"scope": "support.type.property-name.json punctuation",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#3d8c8c"
 		}
 	  },
 	  {
 		"name": "laravel blade tag",
 		"scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#7aa697"
 		}
 	  },
 	  {
@@ -1723,7 +1730,7 @@
 		  "beginning.punctuation.definition.list.markdown.xi"
 		],
 		"settings": {
-		  "foreground": "#fff4ba"
+		  "foreground": "#aa9981"
 		}
 	  },
 	  {
@@ -1807,7 +1814,7 @@
 		"scope": "comment, punctuation.definition.comment",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#7f848e"
+		  "foreground": "#aa9981"
 		}
 	  },
 	  {
@@ -2014,7 +2021,7 @@
 	  "breadcrumb.background": "#272c35",
 	  "breadcrumb.foreground": "#a8977f",
 	  "breadcrumb.focusForeground": "#e0e0e0",
-	  "editorGroupHeader.tabsBackground": "#252526",
+	  "editorGroupHeader.tabsBackground": "#2a303a",
 	  "tab.activeForeground": "#fff4ba",
 	  "tab.border": "#303742",
 	  "tab.activeBackground": "#272c35",
